@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Form</title>
+    <style>
+      body{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background-image:url("../images/login.jpg");
+      }
+      .form{
+        width: 250px;
+        height: 400px;
+        background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+        position: absolute;
+        align-items: center;
+        transform: translate(0%,-5%);
+        border-radius: 10px;
+        padding: 80px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: #191919;
+        text-align: center;
+        
+    }
+    
+    .form h2{
+        width: 220px;
+        font-family: sans-serif;
+        text-align: center;
+        color: #ff7200;
+        font-size: 22px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 2px;
+        padding: 8px;
+    }
+    
+    .form input{
+        width: 240px;
+        height: 35px;
+        background: transparent;
+        border-bottom: 1px solid #ff7200;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: #fff;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+    }
+    
+    .form input:focus{
+        outline: none;
+    }
+    
+    ::placeholder{
+        color: #fff;
+        font-family: Arial;
+    }
+    
+    .btnn{
+        width: 240px;
+        height: 40px;
+        background: #ff7200;
+        border: none;
+        margin-top: 30px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: #fff;
+        transition: 0.4s ease;
+    }
+    .btnn:hover{
+        background: #fff;
+        color: #ff7200;
+    }
+    .btnn a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    .form .link{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding-top: 20px;
+        text-align: center;
+        color:#fff
+    }
+    .form .link a{
+        text-decoration: none;
+        color: #ff7200;
+    }
+    .liw{
+        padding-top: 15px;
+        padding-bottom: 10px;
+        text-align: center;
+        color:#fff;
+    }
+    .icons a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .icons ion-icon{
+        color: #fff;
+        font-size: 30px;
+        padding-left: 14px;
+        padding-top: 5px;
+        transition: 0.3s ease;
+    }
+    .icons ion-icon:hover{
+        color: #ff7200;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <h2>Login Here</h2>
+      <center>
+      <input type="email" name="email" placeholder="Enter Email Here">
+      <input type="password" name="" placeholder="Enter Password Here">
+      <button class="btnn"><a href="index1.html">Login</a></button>
+
+      <p class="link">Don't have an account<br>
+        <br/>
+
+      <a href="sigup.html">Sign up </a> here</a></p>
+      <p class="liw">Log in with</p>
+      
+      <div class="icons">
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+        </center>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+      </div>
+     
+  </div>
+      </div>
+  </body>
+</html>
